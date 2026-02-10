@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <div
-    className="bg-slate-950 min-h-screen max-w-full"
+    className="bg-neutral-800 min-h-screen max-w-full"
     >
       
     </div>

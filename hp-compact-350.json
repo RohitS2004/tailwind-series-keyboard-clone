@@ -1,0 +1,370 @@
+{
+    "model": "HP Compact 350",
+    "keyCount": 78,
+    "keys": [
+        [
+            {
+                "type": "escape",
+                "secondaryText": "esc"
+            },
+            {
+                "type": "function",
+                "secondaryText": "f1",
+                "icons": ["mute"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f2",
+                "icons": ["sound_low"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f3",
+                "icons": ["sound_high"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f4",
+                "icons": ["play_pause"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f5",
+                "icons": ["brightness_low"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f6",
+                "icons": ["brightness_high"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f7",
+                "icons": ["emoji"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f8",
+                "icons": ["screen_capture"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f9",
+                "icons": ["microphone"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f10",
+                "icons": ["display"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f11",
+                "icons": ["lock"]
+            },
+            {
+                "type": "function",
+                "secondaryText": "f12",
+                "icons": ["bluetooth"]
+            },
+            {
+                "type": "delete",
+                "secondaryText": "delete"
+            }
+        ],
+        [
+            {
+                "type": "group",
+                "primaryText": "`",
+                "secondaryText": "~"
+            },
+            {
+                "type": "group",
+                "primaryText": "1",
+                "secondaryText": "!"
+            },
+            {
+                "type": "group",
+                "primaryText": "2",
+                "secondaryText": "@"
+            },
+            {
+                "type": "group",
+                "primaryText": "3",
+                "secondaryText": "#"
+            },
+            {
+                "type": "group",
+                "primaryText": "4",
+                "secondaryText": "$"
+            },
+            {
+                "type": "group",
+                "primaryText": "5",
+                "secondaryText": "%"
+            },
+            {
+                "type": "group",
+                "primaryText": "6",
+                "secondaryText": "^"
+            },
+            {
+                "type": "group",
+                "primaryText": "7",
+                "secondaryText": "&"
+            },
+            {
+                "type": "group",
+                "primaryText": "8",
+                "secondaryText": "*"
+            },
+            {
+                "type": "group",
+                "primaryText": "9",
+                "secondaryText": "("
+            },
+            {
+                "type": "group",
+                "primaryText": "0",
+                "secondaryText": ")"
+            },
+            {
+                "type": "symbol_numeric",
+                "primaryText": "-",
+                "secondaryText": "_"
+            },
+            {
+                "type": "symbol_numeric",
+                "primaryText": "=",
+                "secondaryText": "+"
+            },
+            {
+                "type": "backspace",
+                "primaryText": "backspace"
+            }
+        ],
+        [
+            {
+                "type": "tab",
+                "primaryText": "tab"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "q"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "w"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "e"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "r"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "t"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "y"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "u"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "i"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "o"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "p"
+            },
+            {
+                "type": "special",
+                "primaryText": "[",
+                "secondaryText": "{"
+            },
+            {
+                "type": "special",
+                "primaryText": "]",
+                "secondaryText": "}"
+            },
+            {
+                "type": "special",
+                "primaryText": "\\",
+                "secondaryText": "|"
+            }
+        ],
+        [
+            {
+                "type": "capslock",
+                "primaryText": "capslock"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "a"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "s"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "d"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "f"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "g"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "h"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "j"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "k"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "l"
+            },
+            {
+                "type": "special",
+                "primaryText": ";",
+                "secondaryText": ":"
+            },
+            {
+                "type": "special",
+                "primaryText": "'",
+                "secondaryText": "\""
+            },
+            {
+                "type": "enter",
+                "primaryText": "enter"
+            }
+        ],
+        [
+            {
+                "type": "group",
+                "primaryText": "shift",
+                "secondaryText": "fn",
+                "icons": ["lock"]
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "z"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "x"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "c"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "v"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "b"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "n"
+            },
+            {
+                "type": "alphabetical",
+                "primaryText": "m"
+            },
+            {
+                "type": "group",
+                "primaryText": ",",
+                "secondaryText": "<"
+            },
+            {
+                "type": "group",
+                "primaryText": ".",
+                "secondaryText": ">"
+            },
+            {
+                "type": "group",
+                "primaryText": "/",
+                "secondaryText": "?"
+            },
+            {
+                "type": "shift",
+                "primaryText": "shift"
+            }
+        ],
+        [
+            {
+                "type": "control",
+                "primaryText": "ctrl"
+            },
+            {
+                "type": "function",
+                "primaryText": "fn"
+            },
+            {
+                "type": "group",
+                "primaryText": "opt",
+                "icons": ["windows", "recording", "line"]
+            },
+            {
+                "type": "group",
+                "primaryText": "alt",
+                "secondaryText": "cmd",
+                "icons": ["line"]
+            },
+            {
+                "type": "spacebar"
+            },
+            {
+                "type": "group",
+                "primaryText": "alt",
+                "secondaryText": "cmd",
+                "icons": ["line"]
+            },
+            {
+                "type": "group",
+                "primaryText": "ctrl",
+                "secondaryText": "opt",
+                "icons": ["line"]
+            },
+            {
+                "type": "arrow",
+                "icons": ["arrow_left"]
+            },
+            {
+                "type": "arrow_group_vertical",
+                "icons": ["arrow_up", "arrow_down"]
+            },
+            {
+                "type": "arrow",
+                "icons": ["arrow_right"]
+            }
+        ]
+    ],
+    "company": "HP",
+    "colorOptions": ["white", "black"]
+    
+}
