@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const HpIcon = (props: IIcon) => {
+export const HpIcon = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,5 +17,3 @@ const HpIcon = (props: IIcon) => {
     </svg>
   );
 };
-
-export default HpIcon;

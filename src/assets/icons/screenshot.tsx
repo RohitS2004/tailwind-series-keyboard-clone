@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const Screenshot = (props: IIcon) => {
+export const Screenshot = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -19,5 +19,3 @@ const Screenshot = (props: IIcon) => {
     </svg>
   );
 };
-
-export default Screenshot;

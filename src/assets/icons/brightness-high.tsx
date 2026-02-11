@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const BrightnessHigh = (props: IIcon) => {
+export const BrightnessHigh = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -26,5 +26,3 @@ const BrightnessHigh = (props: IIcon) => {
     </svg>
   );
 };
-
-export default BrightnessHigh;

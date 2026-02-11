@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const ArrowRight = (props: IIcon) => {
+export const ArrowRight = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,5 +18,3 @@ const ArrowRight = (props: IIcon) => {
     </svg>
   );
 };
-
-export default ArrowRight;

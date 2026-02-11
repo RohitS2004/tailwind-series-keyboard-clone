@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const Line = (props: IIcon) => {
+export const Line = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -19,4 +19,3 @@ const Line = (props: IIcon) => {
   );
 };
 
-export default Line;

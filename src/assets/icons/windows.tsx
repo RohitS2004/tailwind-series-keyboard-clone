@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const Windows = (props: IIcon) => {
+export const Windows = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,5 +20,3 @@ const Windows = (props: IIcon) => {
     </svg>
   );
 };
-
-export default Windows;

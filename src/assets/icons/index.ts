@@ -1,3 +1,20 @@
-import HpIcon from "./hp-icon";
-
-export { HpIcon };
+export { ArrowDown } from "./arrow-down";
+export { ArrowLeft } from "./arrow-left";
+export { ArrowRight } from "./arrow-right";
+export { ArrowUp } from "./arrow-up";
+export { Bluetooth } from "./bluetooth";
+export { BrightnessHigh } from "./brightness-high";
+export { BrightnessLow } from "./brightness-low";
+export { Emoji } from "./emoji-icon";
+export { HpIcon } from "./hp-icon";
+export { Line } from "./line";
+export { Lock } from "./lock";
+export { Microphone } from  "./microphone";
+export { Mute } from "./mute";
+export { PlayPause } from "./play-pause";
+export { Recording } from "./recording"
+export { Screenshot } from "./screenshot";
+export { Tabs } from "./tabs";
+export { VolumeDown } from "./volume-down";
+export { VolumeUp } from "./volume-up";
+export { Windows } from  "./windows";

@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const PlayPause = (props: IIcon) => {
+export const PlayPause = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,5 +20,3 @@ const PlayPause = (props: IIcon) => {
     </svg>
   );
 };
-
-export default PlayPause;

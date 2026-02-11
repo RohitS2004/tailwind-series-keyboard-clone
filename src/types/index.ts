@@ -19,7 +19,7 @@ type TKeys =
   | "special"
   | "symbol_numeric"
 
-type TIcons =
+export type TIcons =
   | "arrow_down"
   | "arrow_left"
   | "arrow_left"
@@ -56,7 +56,7 @@ export interface IKey {
   type: TKeys;
   primaryText?: string;
   secondaryText?: string;
-  icons?: ReactNode[];
+  icons?: TIcons[];
 }
 
 export interface IKeyboardConfig {

@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const Emoji = (props: IIcon) => {
+export const Emoji = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -21,5 +21,3 @@ const Emoji = (props: IIcon) => {
     </svg>
   );
 };
-
-export default Emoji;

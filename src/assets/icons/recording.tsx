@@ -1,6 +1,6 @@
 import type { IIcon } from "../../types";
 
-const Recording = (props: IIcon) => {
+export const Recording = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -19,5 +19,3 @@ const Recording = (props: IIcon) => {
     </svg>
   );
 };
-
-export default Recording;
