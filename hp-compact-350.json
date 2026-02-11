@@ -5,8 +5,7 @@
     [
       {
         "type": "escape",
-        "secondaryText": "esc",
-        "icons": [""]
+        "secondaryText": "esc"
       },
       {
         "type": "function",
@@ -70,7 +69,8 @@
       },
       {
         "type": "delete",
-        "secondaryText": "delete"
+        "secondaryText": "delete",
+        "icons": [""]
       }
     ],
     [
@@ -151,43 +151,43 @@
       },
       {
         "type": "alphabetical",
-        "primaryText": "q"
+        "primaryText": "Q"
       },
       {
         "type": "alphabetical",
-        "primaryText": "w"
+        "primaryText": "W"
       },
       {
         "type": "alphabetical",
-        "primaryText": "e"
+        "primaryText": "E"
       },
       {
         "type": "alphabetical",
-        "primaryText": "r"
+        "primaryText": "R"
       },
       {
         "type": "alphabetical",
-        "primaryText": "t"
+        "primaryText": "T"
       },
       {
         "type": "alphabetical",
-        "primaryText": "y"
+        "primaryText": "Y"
       },
       {
         "type": "alphabetical",
-        "primaryText": "u"
+        "primaryText": "U"
       },
       {
         "type": "alphabetical",
-        "primaryText": "i"
+        "primaryText": "I"
       },
       {
         "type": "alphabetical",
-        "primaryText": "o"
+        "primaryText": "O"
       },
       {
         "type": "alphabetical",
-        "primaryText": "p"
+        "primaryText": "P"
       },
       {
         "type": "special",
@@ -212,39 +212,39 @@
       },
       {
         "type": "alphabetical",
-        "primaryText": "a"
+        "primaryText": "A"
       },
       {
         "type": "alphabetical",
-        "primaryText": "s"
+        "primaryText": "S"
       },
       {
         "type": "alphabetical",
-        "primaryText": "d"
+        "primaryText": "D"
       },
       {
         "type": "alphabetical",
-        "primaryText": "f"
+        "primaryText": "F"
       },
       {
         "type": "alphabetical",
-        "primaryText": "g"
+        "primaryText": "G"
       },
       {
         "type": "alphabetical",
-        "primaryText": "h"
+        "primaryText": "H"
       },
       {
         "type": "alphabetical",
-        "primaryText": "j"
+        "primaryText": "J"
       },
       {
         "type": "alphabetical",
-        "primaryText": "k"
+        "primaryText": "K"
       },
       {
         "type": "alphabetical",
-        "primaryText": "l"
+        "primaryText": "L"
       },
       {
         "type": "special",
@@ -263,38 +263,38 @@
     ],
     [
       {
-        "type": "group",
+        "type": "shift_group",
         "primaryText": "shift",
         "secondaryText": "fn",
         "icons": ["lock"]
       },
       {
         "type": "alphabetical",
-        "primaryText": "z"
+        "primaryText": "Z"
       },
       {
         "type": "alphabetical",
-        "primaryText": "x"
+        "primaryText": "X"
       },
       {
         "type": "alphabetical",
-        "primaryText": "c"
+        "primaryText": "C"
       },
       {
         "type": "alphabetical",
-        "primaryText": "v"
+        "primaryText": "V"
       },
       {
         "type": "alphabetical",
-        "primaryText": "b"
+        "primaryText": "B"
       },
       {
         "type": "alphabetical",
-        "primaryText": "n"
+        "primaryText": "N"
       },
       {
         "type": "alphabetical",
-        "primaryText": "m"
+        "primaryText": "M"
       },
       {
         "type": "group",

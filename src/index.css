@@ -17,5 +17,5 @@
 
 /* Creating a custom utility class using the @utility directive, these are used for single-purpose utilities */
 @utility grid-14 {
-    grid-template-columns: repeat(28, minmax(0, 1fr));
+    grid-template-columns: repeat(56, minmax(0, 1fr));
 }

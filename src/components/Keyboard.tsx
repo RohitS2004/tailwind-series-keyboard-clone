@@ -32,7 +32,7 @@ const Keyboard = () => {
       <div className="grid-14 grid flex-1 grid-rows-6 gap-1">
         <Key 
         type="backspace"
-        primaryText="Backspace"
+        primaryText="backspace"
         />
         <Key 
         type="alphabetical"
@@ -45,6 +45,10 @@ const Keyboard = () => {
         <Key 
         type="tab"
         primaryText="tab"
+        />
+        <Key 
+        type="arrow"
+        icons={["arrow_left"]}
         />
       </div>
     </div>

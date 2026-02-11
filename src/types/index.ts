@@ -2,9 +2,10 @@ import type { ReactNode } from "react";
 
 type TKeys =
   | "alphabetical"
-  | "arrow"
-  | "arrow_group_vertical"
   | "backspace"
+  | "arrow"
+  | "tab"
+  | "arrow_group_vertical"
   | "capslock"
   | "control"
   | "delete"
@@ -13,10 +14,10 @@ type TKeys =
   | "function"
   | "group"
   | "shift"
+  | "shift_group"
   | "spacebar"
   | "special"
   | "symbol_numeric"
-  | "tab";
 
 type TIcons =
   | "arrow_down"
@@ -55,7 +56,7 @@ export interface IKey {
   type: TKeys;
   primaryText?: string;
   secondaryText?: string;
-  icons?: TIcons[];
+  icons?: ReactNode[];
 }
 
 export interface IKeyboardConfig {
