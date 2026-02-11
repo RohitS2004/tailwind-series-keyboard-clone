@@ -22,7 +22,7 @@ type TKeys =
 export type TIcons =
   | "arrow_down"
   | "arrow_left"
-  | "arrow_left"
+  | "arrow_right"
   | "arrow_up"
   | "bluetooth"
   | "brightness_high"
@@ -45,11 +45,11 @@ export interface IContainer {
 }
 
 export interface IIcon {
-  fill: string;
-  width: number;
-  height: number;
-  strokeWidth: number;
-  stroke: string;
+  fill?: string;
+  width?: number;
+  height?: number;
+  strokeWidth?: number;
+  stroke?: string;
 }
 
 export interface IKey {

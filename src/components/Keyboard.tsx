@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HpIcon } from "../assets/icons";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, HpIcon } from "../assets/icons";
 import { PADDING } from "../constants";
 import hpData from "../../hp-compact-350.json";
 import type { IKey } from "../types";
@@ -28,6 +28,8 @@ const Keyboard = () => {
           strokeWidth={1}
         />
       </div>
+
+      <ArrowDown />
 
       <div className="grid-14 grid flex-1 grid-rows-6 gap-1">
         <Key 

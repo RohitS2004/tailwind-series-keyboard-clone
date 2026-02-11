@@ -15,7 +15,7 @@ const App = () => {
     <div className="bg-background min-h-screen max-w-full">
       <Container>
         <div
-          className={`font-poppins text-keycap/40 flex w-full justify-between px-2.5 font-semibold`}
+          className={`tracking-tighter text-keycap/40 flex w-full justify-between px-2.5 font-semibold`}
         >
           <span>{model}</span>
           <span>{keyCount} keys</span>
