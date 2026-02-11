@@ -3,6 +3,7 @@ import { HpIcon } from "../assets/icons";
 import { PADDING } from "../constants";
 import hpData from "../../hp-compact-350.json";
 import type { IKey } from "../types";
+import Key from "./Key";
 
 const Keyboard = () => {
   const [keyMapping, setKeyMapping] = useState<[IKey[]] | null>(null);
@@ -12,7 +13,7 @@ const Keyboard = () => {
     // @ts-ignore
     setKeyMapping(hpData.keyMapping);
     setTotalRows(hpData.keyMapping!.length);
-  }, []); // on every page reload
+  }, []);
 
   return (
     <div
@@ -27,7 +28,25 @@ const Keyboard = () => {
           strokeWidth={1}
         />
       </div>
-      <div className=""></div>
+
+      <div className="grid-14 grid flex-1 grid-rows-6 gap-1">
+        <Key 
+        type="backspace"
+        primaryText="Backspace"
+        />
+        <Key 
+        type="alphabetical"
+        primaryText="B"
+        />
+        <Key 
+        type="alphabetical"
+        primaryText="A"
+        />
+        <Key 
+        type="tab"
+        primaryText="tab"
+        />
+      </div>
     </div>
   );
 };

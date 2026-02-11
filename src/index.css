@@ -6,8 +6,16 @@
 @theme {
     --font-poppins: "Poppins", sans-serif;
 
-    /*
-    Custom colors for the background, keyboard and the key caps
-    */
-    
+
+    --color-keyboard-background: oklch(96.8% 0.007 247.896);
+    /* slate-100 */
+    --color-background: oklch(26.9% 0 0);
+    /* neutral-800 */
+    --color-keycap: oklch(98.4% 0.003 247.858);
+    /* slate-50 */
+}
+
+/* Creating a custom utility class using the @utility directive, these are used for single-purpose utilities */
+@utility grid-14 {
+    grid-template-columns: repeat(28, minmax(0, 1fr));
 }
