@@ -17,7 +17,7 @@ const Keyboard = () => {
 
   return (
     <div
-      className={`bg-keyboard-background h-112 w-full rounded-2xl ${PADDING} flex flex-col gap-1`}
+      className={`bg-keyboard-background h-96 w-full rounded-2xl ${PADDING} flex flex-col gap-1`}
     >
       <div className="flex items-center justify-center">
         <HpIcon
@@ -28,8 +28,6 @@ const Keyboard = () => {
           strokeWidth={1}
         />
       </div>
-
-      <ArrowDown />
 
       <div className="grid-14 grid flex-1 grid-rows-6 gap-1">
         <Key 
@@ -51,6 +49,14 @@ const Keyboard = () => {
         <Key 
         type="arrow"
         icons={["arrow_left"]}
+        />
+        <Key 
+        type="arrow"
+        icons={["arrow_right"]}
+        />
+        <Key 
+        type="arrow_group_vertical"
+        icons={["arrow_left", "arrow_right"]}
         />
       </div>
     </div>
