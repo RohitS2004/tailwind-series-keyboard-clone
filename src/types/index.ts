@@ -1,23 +1,24 @@
 import type { ReactNode } from "react";
 
 type TKeys =
-  | "alphabetical"
-  | "backspace"
-  | "arrow"
-  | "tab"
-  | "arrow_group_vertical"
-  | "capslock"
-  | "control"
-  | "delete"
-  | "enter"
-  | "escape"
-  | "function"
-  | "group"
-  | "shift"
-  | "shift_group"
+  | "alphabetical" // alphabetical keys
+  | "backspace" // backspace key
+  | "tab" // tab key
+  | "arrow" // arrow keys (left and right)
+  | "arrow_group_vertical" // arrow keys group (up and donw)
+  | "capslock" // capslock key
+  | "control" // control key (individual)
+  | "delete" // delete key
+  | "enter" // enter key
+  | "escape" // escape key
+  | "single_function" // function key (on the last row)
+  | "shift" // shift key (right side)
+  | "shift_group" // shift group key
   | "spacebar"
-  | "special"
-  | "symbol_numeric"
+  | "special" // special character keys
+  | "symbol_numeric" // symbol and number keys
+  | "function" // function keys
+  | "group"; // grouped keys (on the last row, separated by a line in between)
 
 export type TIcons =
   | "arrow_down"
@@ -37,7 +38,7 @@ export type TIcons =
   | "recording"
   | "screen_capture"
   | "sound_high"
-  | "sound _low"
+  | "sound_low"
   | "windows";
 
 export interface IContainer {
@@ -50,6 +51,7 @@ export interface IIcon {
   height?: number;
   strokeWidth?: number;
   stroke?: string;
+  barLength?: number;
 }
 
 export interface IKey {

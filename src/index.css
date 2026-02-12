@@ -2,12 +2,15 @@
 
 @import "tailwindcss";
 
+* {
+    box-sizing: border-box;
+}
 
 @theme {
     --font-poppins: "Poppins", sans-serif;
 
 
-    --color-keyboard-background: oklch(96.8% 0.007 247.896);
+    --color-keyboard-background: oklch(97% 0 0);
     /* slate-100 */
     --color-background: oklch(26.9% 0 0);
     /* neutral-800 */
@@ -17,5 +20,5 @@
 
 /* Creating a custom utility class using the @utility directive, these are used for single-purpose utilities */
 @utility grid-14 {
-    grid-template-columns: repeat(56, minmax(0, 1fr));
+    grid-template-columns: repeat(196, minmax(0, 1fr));
 }

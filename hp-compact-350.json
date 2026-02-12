@@ -5,127 +5,126 @@
     [
       {
         "type": "escape",
-        "secondaryText": "esc"
+        "primaryText": "esc"
       },
       {
         "type": "function",
-        "secondaryText": "f1",
+        "primaryText": "f1",
         "icons": ["mute"]
       },
       {
         "type": "function",
-        "secondaryText": "f2",
+        "primaryText": "f2",
         "icons": ["sound_low"]
       },
       {
         "type": "function",
-        "secondaryText": "f3",
+        "primaryText": "f3",
         "icons": ["sound_high"]
       },
       {
         "type": "function",
-        "secondaryText": "f4",
+        "primaryText": "f4",
         "icons": ["play_pause"]
       },
       {
         "type": "function",
-        "secondaryText": "f5",
+        "primaryText": "f5",
         "icons": ["brightness_low"]
       },
       {
         "type": "function",
-        "secondaryText": "f6",
+        "primaryText": "f6",
         "icons": ["brightness_high"]
       },
       {
         "type": "function",
-        "secondaryText": "f7",
+        "primaryText": "f7",
         "icons": ["emoji"]
       },
       {
         "type": "function",
-        "secondaryText": "f8",
+        "primaryText": "f8",
         "icons": ["screen_capture"]
       },
       {
         "type": "function",
-        "secondaryText": "f9",
+        "primaryText": "f9",
         "icons": ["microphone"]
       },
       {
         "type": "function",
-        "secondaryText": "f10",
+        "primaryText": "f10",
         "icons": ["display"]
       },
       {
         "type": "function",
-        "secondaryText": "f11",
+        "primaryText": "f11",
         "icons": ["lock"]
       },
       {
         "type": "function",
-        "secondaryText": "f12",
+        "primaryText": "f12",
         "icons": ["bluetooth"]
       },
       {
         "type": "delete",
-        "secondaryText": "delete",
-        "icons": [""]
+        "primaryText": "delete"
       }
     ],
     [
       {
-        "type": "group",
+        "type": "special",
         "primaryText": "`",
         "secondaryText": "~"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "1",
         "secondaryText": "!"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "2",
         "secondaryText": "@"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "3",
         "secondaryText": "#"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "4",
         "secondaryText": "$"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "5",
         "secondaryText": "%"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "6",
         "secondaryText": "^"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "7",
         "secondaryText": "&"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "8",
         "secondaryText": "*"
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "9",
         "secondaryText": "("
       },
       {
-        "type": "group",
+        "type": "symbol_numeric",
         "primaryText": "0",
         "secondaryText": ")"
       },
@@ -297,17 +296,17 @@
         "primaryText": "M"
       },
       {
-        "type": "group",
+        "type": "special",
         "primaryText": ",",
         "secondaryText": "<"
       },
       {
-        "type": "group",
+        "type": "special",
         "primaryText": ".",
         "secondaryText": ">"
       },
       {
-        "type": "group",
+        "type": "special",
         "primaryText": "/",
         "secondaryText": "?"
       },
@@ -322,7 +321,7 @@
         "primaryText": "ctrl"
       },
       {
-        "type": "function",
+        "type": "single_function",
         "primaryText": "fn"
       },
       {

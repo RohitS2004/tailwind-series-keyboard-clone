@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, HpIcon } from "../assets/icons";
+import { HpIcon } from "../assets/icons";
 import { PADDING } from "../constants";
 import hpData from "../../hp-compact-350.json";
 import type { IKey } from "../types";
@@ -7,19 +7,17 @@ import Key from "./Key";
 
 const Keyboard = () => {
   const [keyMapping, setKeyMapping] = useState<[IKey[]] | null>(null);
-  const [totalRows, setTotalRows] = useState<number>(0);
 
   useEffect(() => {
     // @ts-ignore
     setKeyMapping(hpData.keyMapping);
-    setTotalRows(hpData.keyMapping!.length);
   }, []);
 
   return (
     <div
-      className={`bg-keyboard-background h-96 w-full rounded-2xl ${PADDING} flex flex-col gap-1`}
+      className={`bg-keyboard-background h-95 w-full rounded-2xl ${PADDING} flex flex-col gap-1`}
     >
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <HpIcon
           fill="oklch(98.4% 0.003 247.858)"
           height={52}
@@ -27,37 +25,20 @@ const Keyboard = () => {
           stroke="oklch(26.9% 0 0)"
           strokeWidth={1}
         />
-      </div>
+      </div> */}
 
-      <div className="grid-14 grid flex-1 grid-rows-6 gap-1">
-        <Key 
-        type="backspace"
-        primaryText="backspace"
-        />
-        <Key 
-        type="alphabetical"
-        primaryText="B"
-        />
-        <Key 
-        type="alphabetical"
-        primaryText="A"
-        />
-        <Key 
-        type="tab"
-        primaryText="tab"
-        />
-        <Key 
-        type="arrow"
-        icons={["arrow_left"]}
-        />
-        <Key 
-        type="arrow"
-        icons={["arrow_right"]}
-        />
-        <Key 
-        type="arrow_group_vertical"
-        icons={["arrow_left", "arrow_right"]}
-        />
+      <div className="grid-14 grid flex-1 grid-rows-6 gap-1 overflow-hidden">
+        {keyMapping?.map((row: IKey[]) =>
+          row.map((key: IKey, index: number) => (
+            <Key
+              key={index}
+              type={key.type}
+              primaryText={key.primaryText}
+              secondaryText={key.secondaryText}
+              icons={key.icons}
+            />
+          )),
+        )}
       </div>
     </div>
   );
