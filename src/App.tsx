@@ -9,10 +9,10 @@ const App = () => {
   useEffect(() => {
     setModel(hpData.model);
     setKeyCount(hpData.keyCount);
-  }, []); 
+  }, []);
 
   return (
-    <div className="bg-neutral-900 min-h-screen max-w-full">
+    <div className="min-h-screen max-w-full bg-neutral-900">
       <Container>
         <Keyboard />
       </Container>

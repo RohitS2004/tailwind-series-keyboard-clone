@@ -383,7 +383,7 @@ const Key = (props: IKey) => {
             onMouseDown={handleGroupButtonMouseDown}
             onMouseUp={handleGroupButtonMouseUp}
           >
-            <span className="absolute top-0.5 mx-auto">
+            <span className="absolute top-1.5 mx-auto">
               {props.primaryText}
             </span>
             {iconFunction({
@@ -392,7 +392,7 @@ const Key = (props: IKey) => {
               strokeWidth: groupIconStrokeWidth,
               barLength: 24,
             })}
-            <span className="absolute bottom-0.5 mx-auto">
+            <span className="absolute bottom-1.5 mx-auto">
               {props.secondaryText}
             </span>
           </div>
@@ -412,7 +412,7 @@ const Key = (props: IKey) => {
             onMouseDown={handleGroupButtonMouseDown}
             onMouseUp={handleGroupButtonMouseUp}
           >
-            <div className="absolute top-0.5 flex items-center gap-0.5">
+            <div className="absolute top-1.5 flex items-center gap-0.5">
               {windowIconFunction({
                 width: groupIconWidth === 19 ? 15 : 14,
                 height: groupIconHeight === 19 ? 15 : 14,
@@ -433,7 +433,7 @@ const Key = (props: IKey) => {
               barLength: 24,
             })}
 
-            <span className="absolute bottom-0.5 mx-auto">
+            <span className="absolute bottom-1.5 mx-auto">
               {props.primaryText}
             </span>
           </div>
