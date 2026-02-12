@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { HpIcon } from "../assets/icons";
 import { PADDING } from "../constants";
 import hpData from "../../hp-compact-350.json";
 import type { IKey } from "../types";

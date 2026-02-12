@@ -223,7 +223,6 @@ const Key = (props: IKey) => {
       const [lockStrokeWidth, setLockStrokeWidth] = useState<number>(2.5);
 
       const handleShiftGroupMouseDown = (
-        e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
       ) => {
         setLockWidth(7);
         setLockHeight(7);
@@ -231,7 +230,6 @@ const Key = (props: IKey) => {
       };
 
       const handleShiftGroupMouseUp = (
-        e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
       ) => {
         setLockWidth(8);
         setLockHeight(8);
@@ -241,8 +239,8 @@ const Key = (props: IKey) => {
       return (
         <div
           className="bg-keycap border-background/20 active:border-background/30 text-background relative col-span-28 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
-          onMouseDown={(e) => handleShiftGroupMouseDown(e)}
-          onMouseUp={(e) => handleShiftGroupMouseUp(e)}
+          onMouseDown={handleShiftGroupMouseDown}
+          onMouseUp={handleShiftGroupMouseUp}
         >
           <span>{props.primaryText}</span>
           <div className="absolute right-1 bottom-1 flex items-center justify-center gap-0.5">
@@ -307,7 +305,6 @@ const Key = (props: IKey) => {
         useState<number>(1);
 
       const handleFunctionButtonMouseDown = (
-        e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
       ) => {
         setFunctionIconWidth(17);
         setFunctionIconHeight(17);
@@ -315,7 +312,6 @@ const Key = (props: IKey) => {
       };
 
       const handleFunctionButtonMouseUp = (
-        e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
       ) => {
         setFunctionIconWidth(19);
         setFunctionIconHeight(19);
@@ -354,7 +350,6 @@ const Key = (props: IKey) => {
         useState<number>(1);
 
       const handleGroupButtonMouseDown = (
-        e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
       ) => {
         setGroupIconWidth(17);
         setGroupIconHeight(17);
@@ -362,7 +357,6 @@ const Key = (props: IKey) => {
       };
 
       const handleGroupButtonMouseUp = (
-        e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>,
       ) => {
         setGroupIconWidth(19);
         setGroupIconHeight(19);
