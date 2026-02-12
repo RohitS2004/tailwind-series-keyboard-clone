@@ -30,7 +30,7 @@ const Key = (props: IKey) => {
     case "alphabetical":
       // primaryText = Upper case alphabets
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -38,7 +38,7 @@ const Key = (props: IKey) => {
     case "backspace":
       // primaryText = backspace
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-17 flex h-full w-full items-center justify-end rounded-lg border pr-2 text-[10px] shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[9px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-17 flex h-full w-full items-center justify-end rounded-lg border pr-2 text-[10px] shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[9px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -46,7 +46,7 @@ const Key = (props: IKey) => {
     case "tab":
       // primaryText = tab
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -58,7 +58,7 @@ const Key = (props: IKey) => {
 
       return (
         <div
-          className="bg-keycap border-background/20 active:border-background/30 col-span-14 flex h-full w-full items-center justify-center rounded-lg border shadow-md transition-all duration-50 ease-in select-none active:border-2"
+          className="bg-keycap border-background/30 active:border-background/50 col-span-14 flex h-full w-full items-center justify-center rounded-lg border shadow-md transition-all duration-50 ease-in select-none active:border-2"
           onMouseDown={handleOnIconButtonMouseDown}
           onMouseUp={handleOnIconButtonMouseUp}
         >
@@ -125,7 +125,7 @@ const Key = (props: IKey) => {
           onClick={(e) => e.stopPropagation()}
         >
           <div
-            className="bg-keycap border-background/20 active:border-background/30 flex h-[49%] w-full items-center justify-center rounded-t-lg border transition-all duration-50 ease-in select-none active:border-2"
+            className="bg-keycap border-background/30 active:border-background/50 flex h-[49%] w-full items-center justify-center rounded-t-lg border transition-all duration-50 ease-in select-none active:border-2"
             onMouseDown={(e) =>
               arrowGroupHandleOnIconButtonMouseDown(e, "first")
             }
@@ -139,7 +139,7 @@ const Key = (props: IKey) => {
           </div>
 
           <div
-            className="bg-keycap border-background/20 active:border-background/30 flex h-[49%] w-full items-center justify-center rounded-b-lg border transition-all duration-50 ease-in select-none active:border-2"
+            className="bg-keycap border-background/30 active:border-background/50 flex h-[49%] w-full items-center justify-center rounded-b-lg border transition-all duration-50 ease-in select-none active:border-2"
             onMouseDown={(e) =>
               arrowGroupHandleOnIconButtonMouseDown(e, "second")
             }
@@ -157,7 +157,7 @@ const Key = (props: IKey) => {
     case "capslock":
       // primaryText = caps lock
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-21 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-21 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -165,7 +165,7 @@ const Key = (props: IKey) => {
     case "control":
       // primaryText = ctrl
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -173,7 +173,7 @@ const Key = (props: IKey) => {
     case "delete":
       // primaryText = delete
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -181,7 +181,7 @@ const Key = (props: IKey) => {
     case "enter":
       // primaryText = enter
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-21 flex h-full w-full items-center justify-end rounded-lg border pr-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-21 flex h-full w-full items-center justify-end rounded-lg border pr-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -189,7 +189,7 @@ const Key = (props: IKey) => {
     case "escape":
       // primaryText = esc
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -197,7 +197,7 @@ const Key = (props: IKey) => {
     case "single_function":
       // primaryText = fn
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -205,7 +205,7 @@ const Key = (props: IKey) => {
     case "shift":
       // primaryText = shift
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-28 flex h-full w-full items-center justify-end rounded-lg border pr-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-28 flex h-full w-full items-center justify-end rounded-lg border pr-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           {props.primaryText}
         </div>
       );
@@ -236,7 +236,7 @@ const Key = (props: IKey) => {
 
       return (
         <div
-          className="bg-keycap border-background/20 active:border-background/30 text-background relative col-span-28 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
+          className="bg-keycap border-background/30 active:border-background/50 text-background relative col-span-28 flex h-full w-full items-center justify-start rounded-lg border pl-2 text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
           onMouseDown={handleShiftGroupMouseDown}
           onMouseUp={handleShiftGroupMouseUp}
         >
@@ -256,7 +256,7 @@ const Key = (props: IKey) => {
 
     case "spacebar":
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 col-span-70 h-full w-full rounded-lg border shadow-md transition-all duration-50 ease-in select-none active:border-2">
+        <div className="bg-keycap border-background/30 active:border-background/50 col-span-70 h-full w-full rounded-lg border shadow-md transition-all duration-50 ease-in select-none active:border-2">
           {props.primaryText}
         </div>
       );
@@ -267,14 +267,14 @@ const Key = (props: IKey) => {
 
       if (props.primaryText === "`") {
         return (
-          <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-11 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+          <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-11 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
             <span>{props.secondaryText}</span>
             <span>{props.primaryText}</span>
           </div>
         );
       }
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           <span>{props.secondaryText}</span>
           <span>{props.primaryText}</span>
         </div>
@@ -284,7 +284,7 @@ const Key = (props: IKey) => {
       // primaryText = some_number
       // secondaryText = some_symbol
       return (
-        <div className="bg-keycap border-background/20 active:border-background/30 text-background col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
+        <div className="bg-keycap border-background/30 active:border-background/50 text-background col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold">
           <span>{props.secondaryText}</span>
           <span>{props.primaryText}</span>
         </div>
@@ -316,7 +316,7 @@ const Key = (props: IKey) => {
 
       return (
         <div
-          className="bg-keycap border-background/20 active:border-background/30 text-background relative col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
+          className="bg-keycap border-background/30 active:border-background/50 text-background relative col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
           onMouseDown={handleFunctionButtonMouseDown}
           onMouseUp={handleFunctionButtonMouseUp}
         >
@@ -367,7 +367,7 @@ const Key = (props: IKey) => {
 
         return (
           <div
-            className="bg-keycap border-background/20 active:border-background/30 text-background relative col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
+            className="bg-keycap border-background/30 active:border-background/50 text-background relative col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
             onMouseDown={handleGroupButtonMouseDown}
             onMouseUp={handleGroupButtonMouseUp}
           >
@@ -396,7 +396,7 @@ const Key = (props: IKey) => {
 
         return (
           <div
-            className="bg-keycap border-background/20 active:border-background/30 text-background relative col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
+            className="bg-keycap border-background/30 active:border-background/50 text-background relative col-span-14 flex h-full w-full flex-col items-center justify-center rounded-lg border text-xs shadow-md transition-all duration-50 ease-in select-none active:border-2 active:text-[11px] active:font-semibold"
             onMouseDown={handleGroupButtonMouseDown}
             onMouseUp={handleGroupButtonMouseUp}
           >

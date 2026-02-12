@@ -13,7 +13,7 @@ const Keyboard = () => {
 
   return (
     <div
-      className={`bg-keyboard-background h-100 w-full rounded-2xl flex flex-col gap-1`}
+      className={`bg-keyboard-background flex h-100 w-full flex-col gap-1 rounded-2xl`}
     >
       {/* <div className="flex items-center justify-center">
         <HpIcon
@@ -25,7 +25,7 @@ const Keyboard = () => {
         />
       </div> */}
 
-      <div className="grid-14 grid flex-1 grid-rows-6 gap-1 overflow-hidden m-2">
+      <div className="grid-14 m-3 grid flex-1 grid-rows-6 gap-1 overflow-hidden">
         {keyMapping?.map((row: IKey[]) =>
           row.map((key: IKey, index: number) => (
             <Key

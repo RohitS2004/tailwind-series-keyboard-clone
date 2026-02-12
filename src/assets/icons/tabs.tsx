@@ -4,7 +4,7 @@ export const Tabs = (props: IIcon) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-       width={props.width ?? 24}
+      width={props.width ?? 24}
       height={props.height ?? 24}
       viewBox="0 0 24 24"
       fill={props.fill ?? "none"}
@@ -12,11 +12,12 @@ export const Tabs = (props: IIcon) => {
       strokeWidth={props.strokeWidth ?? 2}
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="lucide lucide-between-vertical-end-icon lucide-between-vertical-end"
+      className="lucide lucide-app-window-icon lucide-app-window"
     >
-      <rect width="7" height="13" x="3" y="3" rx="1" />
-      <path d="m9 22 3-3 3 3" />
-      <rect width="7" height="13" x="14" y="3" rx="1" />
+      <rect x="2" y="4" width="20" height="16" rx="2" />
+      <path d="M10 4v4" />
+      <path d="M2 8h20" />
+      <path d="M6 4v4" />
     </svg>
   );
 };
