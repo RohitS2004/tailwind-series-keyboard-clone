@@ -222,15 +222,13 @@ const Key = (props: IKey) => {
       const [lockHeight, setLockHeight] = useState<number>(8);
       const [lockStrokeWidth, setLockStrokeWidth] = useState<number>(2.5);
 
-      const handleShiftGroupMouseDown = (
-      ) => {
+      const handleShiftGroupMouseDown = () => {
         setLockWidth(7);
         setLockHeight(7);
         setLockStrokeWidth(3.5);
       };
 
-      const handleShiftGroupMouseUp = (
-      ) => {
+      const handleShiftGroupMouseUp = () => {
         setLockWidth(8);
         setLockHeight(8);
         setLockStrokeWidth(2.5);
@@ -304,15 +302,13 @@ const Key = (props: IKey) => {
       const [functionIconStrokeWidth, setFunctionIconStrokeWidth] =
         useState<number>(1);
 
-      const handleFunctionButtonMouseDown = (
-      ) => {
+      const handleFunctionButtonMouseDown = () => {
         setFunctionIconWidth(17);
         setFunctionIconHeight(17);
         setFunctionIconStrokeWidth(1.5);
       };
 
-      const handleFunctionButtonMouseUp = (
-      ) => {
+      const handleFunctionButtonMouseUp = () => {
         setFunctionIconWidth(19);
         setFunctionIconHeight(19);
         setFunctionIconStrokeWidth(1);
@@ -349,15 +345,13 @@ const Key = (props: IKey) => {
       const [groupIconStrokeWidth, setGroupIconStrokeWidth] =
         useState<number>(1);
 
-      const handleGroupButtonMouseDown = (
-      ) => {
+      const handleGroupButtonMouseDown = () => {
         setGroupIconWidth(17);
         setGroupIconHeight(17);
         setGroupIconStrokeWidth(1.5);
       };
 
-      const handleGroupButtonMouseUp = (
-      ) => {
+      const handleGroupButtonMouseUp = () => {
         setGroupIconWidth(19);
         setGroupIconHeight(19);
         setGroupIconStrokeWidth(1);

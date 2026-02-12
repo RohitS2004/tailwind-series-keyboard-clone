@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { PADDING } from "../constants";
 import hpData from "../../hp-compact-350.json";
 import type { IKey } from "../types";
 import Key from "./Key";
@@ -14,7 +13,7 @@ const Keyboard = () => {
 
   return (
     <div
-      className={`bg-keyboard-background h-95 w-full rounded-2xl ${PADDING} flex flex-col gap-1`}
+      className={`bg-keyboard-background h-100 w-full rounded-2xl flex flex-col gap-1`}
     >
       {/* <div className="flex items-center justify-center">
         <HpIcon
@@ -26,7 +25,7 @@ const Keyboard = () => {
         />
       </div> */}
 
-      <div className="grid-14 grid flex-1 grid-rows-6 gap-1 overflow-hidden">
+      <div className="grid-14 grid flex-1 grid-rows-6 gap-1 overflow-hidden m-2">
         {keyMapping?.map((row: IKey[]) =>
           row.map((key: IKey, index: number) => (
             <Key
